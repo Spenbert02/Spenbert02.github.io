@@ -1,0 +1,14 @@
+{
+    "fisnar_robot_plugin": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a mattis dui. Suspendisse accumsan risus vitae ante bibendum mollis. Suspendisse et velit neque. Suspendisse potenti. Pellentesque in interdum est. Pellentesque quis commodo libero, vitae luctus mauris. Nunc sodales risus nec ex blandit ornare. Ut vehicula velit at urna efficitur, quis aliquet justo consequat. Vestibulum eu interdum mi. Etiam eget maximus justo, a malesuada quam."
+    },
+    "stirbot": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a mattis dui. Suspendisse accumsan risus vitae ante bibendum mollis. Suspendisse et velit neque. Suspendisse potenti. Pellentesque in interdum est. Pellentesque quis commodo libero, vitae luctus mauris. Nunc sodales risus nec ex blandit ornare. Ut vehicula velit at urna efficitur, quis aliquet justo consequat. Vestibulum eu interdum mi. Etiam eget maximus justo, a malesuada quam."
+    },
+    "rkt_case": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a mattis dui. Suspendisse accumsan risus vitae ante bibendum mollis. Suspendisse et velit neque. Suspendisse potenti. Pellentesque in interdum est. Pellentesque quis commodo libero, vitae luctus mauris. Nunc sodales risus nec ex blandit ornare. Ut vehicula velit at urna efficitur, quis aliquet justo consequat. Vestibulum eu interdum mi. Etiam eget maximus justo, a malesuada quam."
+    },
+    "gcodebuddy": {
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a mattis dui. Suspendisse accumsan risus vitae ante bibendum mollis. Suspendisse et velit neque. Suspendisse potenti. Pellentesque in interdum est. Pellentesque quis commodo libero, vitae luctus mauris. Nunc sodales risus nec ex blandit ornare. Ut vehicula velit at urna efficitur, quis aliquet justo consequat. Vestibulum eu interdum mi. Etiam eget maximus justo, a malesuada quam."
+    }
+}
