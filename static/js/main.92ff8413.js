@@ -1,2 +1,0 @@
-fetch("assets\\content.json").then((function(e){return e.json()})).then((function(e){document.querySelector("#frp").innerText=e.fisnar_robot_plugin.description,document.querySelector("#stirbot").innerText=e.stirbot.description,document.querySelector("#rkt_case").innerText=e.rkt_case.description,document.querySelector("#gcodebuddy").innerText=e.gcodebuddy.description}));
-//# sourceMappingURL=main.92ff8413.js.map
