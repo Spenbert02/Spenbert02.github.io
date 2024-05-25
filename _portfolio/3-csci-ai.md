@@ -1,6 +1,6 @@
 ---
 title: "<i>CSCI 4511W Intro. to Artificial Intelligence:</i> Final Project"
-excerpt: "Final project for <i>CSCI 4511W Intro. to Artificial Intelligence</i>, titled "Sequencing Tissue-Imitating 3D Printer Toolpaths for Time-Optimal Printing Under Printability Constraints." <br/><img src='/images/sample_tiling_44.jpg' width='50%'>"
+excerpt: "Final project for <i>CSCI 4511W Intro. to Artificial Intelligence</i>, titled \"Sequencing Tissue-Imitating 3D Printer Toolpaths for Time-Optimal Printing Under Printability Constraints.\" <br/><img src='/images/sample_tiling_44.jpg' width='50%'>"
 collection: portfolio
 customdate: "Fall 2022"
 ---
