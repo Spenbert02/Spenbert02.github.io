@@ -13,3 +13,8 @@ package-lock.json
 
 # SB 5/22/2024
 howto.txt
+
+# SB 10/08/2024
+*.gif
+*.mp4
+*.DS_Store
