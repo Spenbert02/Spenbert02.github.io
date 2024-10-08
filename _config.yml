@@ -21,7 +21,7 @@ repository               : "Spenbert02/Spenbert02.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "headshot_updated.JPEG"
+  avatar           : "headshot_updated.jpeg"
   name             : "Spencer Bertram"
   pronouns         : # example: "she/her"  
   bio              : "Biomedical Engineering Researcher"
