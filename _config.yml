@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Spencer Bertram"
 title_separator          : "-"
 name                     : &name "Spencer Bertram"
-description              : &description "personal description"
+# description              : &description "personal description"
 url                      : https://Spenbert02.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Spenbert02/Spenbert02.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : "headshot_updated.jpeg"
   name             : "Spencer Bertram"
   pronouns         : # example: "she/her"  
-  bio              : "Biomedical Engineering Researcher"
+  bio              : "Biomedical Computing Researcher"
   location         : "Minneapolis, Minnesota"
   employer         : "University of Minnesota"
   uri              : # URL
@@ -57,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : spencer-bertram
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

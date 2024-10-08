@@ -1,6 +1,6 @@
 ---
-title: "<i>ME 5286 Robotics:</i> CNN Assisted Tool Sorting"
-excerpt: "Final lab for <i>ME 5286 Robotics</i>. A convolutional neural network assisted automated tool sorting process, implemented on a UR5 robotic arm.<br/><img src='/images/identified_bins.jpg' width='50%'>"
+title: "<i>ME 5286 Robotics:</i> CNN-based robotic tool sorting"
+excerpt: "Final lab for <i>ME 5286 Robotics</i>. A convolutional neural network-based tool sorting procedure, implemented on a UR5 robotic arm.<br/><img src='/images/identified_bins.jpg' width='50%'>"
 collection: portfolio
 customdate: "Spring 2024"
 ---

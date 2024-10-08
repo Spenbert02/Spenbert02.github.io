@@ -41,7 +41,9 @@
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
-          <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% if post.includevenue == 'True' %}
+          <p><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% endif %}
         {% elsif post.collection == 'portfolio' %}
         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> </strong>{{ post.customdate }}</p>
         {% elsif post.date %}
@@ -55,15 +57,15 @@
     {% endif %}
     
     {% if post.citation and post.paperurl and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
+      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}" target="_blank">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% elsif post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
+      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}" target="_blank">Download Paper</a></p>
     {% elsif post.citation and post.slidesurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% elsif post.citation %}
       <p>Recommended citation: {{ post.citation }}</p>
     {% elsif post.paperurl %}
-      <p><a href=" {{ post.paperurl }} ">Download Paper</a></p>
+      <p><a href=" {{ post.paperurl }} " target="_blank">Download Paper</a></p>
     {% elsif post.slidesurl %}
       <p>Download <a href="{{ post.slidesurl }}">Download Slides</a></p></p>
     {% endif %}
