@@ -15,5 +15,4 @@ The algorithm operates by first generating a dense set of contours through numer
 
 A major development is our novel thinning procedure that reduces an initially overdense contour set to a subset possessing a specified uniform inter-contour spacing. The thinning procedure executed on a human left ventricle model is shown below.
 
-<!-- <img src="/images/thinning_animation_v4.gif" width="100%"> -->
 <iframe width="100%" height="500px" src="https://drive.google.com/file/d/1Zdr8TbQE6sfnC8JQvKBkxoWaAPP8g-ou/preview"></iframe>
