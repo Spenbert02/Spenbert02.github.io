@@ -1,5 +1,5 @@
 ---
-title: "Freeform three-dimensional orientation field-aligned 3D printing"
+title: "NAATIV3: Nonplanar Architecture-Aligned Toolpathing for In-Vitro 3D Bioprinting"
 excerpt: "Toolpath generation algorithm for field-aligned 3D printing. The topic of my undergraduate honors thesis and my main focus as a staff researcher.<br/><img src='/images/ventricle_print_preview.png' width='50%'>"
 collection: portfolio
 customdate: "September 2022 - Present"
@@ -16,4 +16,11 @@ The algorithm operates by first generating a dense set of contours through numer
 A major development is our novel thinning procedure that reduces an initially overdense contour set to a subset possessing a specified uniform inter-contour spacing. The thinning procedure executed on a human left ventricle model is shown below.
 
 <!-- <iframe width="100%" height="500px" src="https://drive.google.com/file/d/1Zdr8TbQE6sfnC8JQvKBkxoWaAPP8g-ou/preview"></iframe> -->
-<iframe src="https://drive.google.com/file/d/1Zdr8TbQE6sfnC8JQvKBkxoWaAPP8g-ou/preview" width="100%" height="480" allow="autoplay"></iframe>
+<!-- <iframe src="https://drive.google.com/file/d/1Zdr8TbQE6sfnC8JQvKBkxoWaAPP8g-ou/preview" width="100%" height="480"></iframe> -->
+
+<!-- <iframe src="https://drive.google.com/file/d/1Zdr8TbQE6sfnC8JQvKBkxoWaAPP8g-ou/preview" width="600" height="480"></iframe> -->
+<!-- <iframe src="https://drive.google.com/file/d/1Zdr8TbQE6sfnC8JQvKBkxoWaAPP8g-ou/preview" frameborder="0" scrolling="no" onload="resizeIframe(this)" ></iframe> -->
+
+<!-- <object width="100%" height="500px" data="https://drive.google.com/file/d/1Zdr8TbQE6sfnC8JQvKBkxoWaAPP8g-ou/preview"> -->
+
+<iframe src="https://www.youtube.com/embed/xvew__NEOqs" frameborder="0" scrolling="no" onload="resizeIframe(this)" ></iframe>
