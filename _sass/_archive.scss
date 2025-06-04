@@ -41,6 +41,10 @@
   + .list__item .archive__item-title-patent {
     margin-top: 0.5em;
   }
+
+  + .list__item .archive__item-title-paper {
+    margin-top: 0.5em;
+  }
 }
 
 .archive__item-title {
@@ -62,6 +66,17 @@
   }
 }
 
+.archive__item-title-paper {
+  margin-bottom: 0.25em;
+  font-family: $sans-serif-narrow;
+  text-decoration: underline;
+
+  a + a {
+    opacity: 0.5;
+  }
+}
+
+
 /* remove border*/
 .page__content {
 
@@ -73,6 +88,11 @@
   .archive__item-title-patent {
     margin-top: 1em;
     border-bottom: none; 
+  }
+
+  .archive__item-title-paper {
+    margin-top: 1em;
+    border-bottom: none;
   }
 }
 
@@ -144,6 +164,11 @@
   }
 
   .archive__item-title-patent {
+    margin-top: 0.5em;
+    font-size: $type-size-5;
+  }
+
+  .archive__item-title-paper {
     margin-top: 0.5em;
     font-size: $type-size-5;
   }

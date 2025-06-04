@@ -2,7 +2,7 @@
 title: "An orientation field-based toolpath generation algorithm for nonplanar, fiber-oriented 3D bioprinted cardiac constructs"
 collection: publications
 permalink: /publication/2024-04-30-undergrad-thesis
-excerpt: 'My undergraduate honors thesis, proposing a toolpath generation algorithm for fiber-oriented 3D bioprinting. Unanimously graded <i>summa cum laude</i>.'
+excerpt: 'My undergraduate honors thesis.'
 date: 2024-04-30
 venue: 'University of Minnesota'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'

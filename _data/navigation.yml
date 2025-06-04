@@ -1,13 +1,10 @@
 # main links links  SB 5/22/2024
 main:
-  - title: "Academic Work"
-    url: /academicwork/  
+  - title: "Papers"
+    url: /papers/  
     
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  # - title: "Blog Posts"
-  #   url: /year-archive/
+  - title: "Projects"
+    url: /projects/
     
   - title: "CV"
     url: https://drive.google.com/file/d/1E1lbZGIEKV25aeXTReL1sKWOjb0dN9G2/view?usp=sharing

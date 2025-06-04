@@ -1,7 +1,7 @@
 ---
 layout: archive
-# title: "Academic Work"
-permalink: /academicwork/
+# title: "Papers"
+permalink: /papers/
 author_profile: true
 ---
 
@@ -11,7 +11,7 @@ author_profile: true
 # Papers
 
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% include archive-single-paper.html %}
 {% endfor %}
 <br/><br/>
 
