@@ -8,6 +8,7 @@ venue: 'Nature Communications Engineering'
 includevenue: "False"
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://doi.org/10.1038/s44172-025-00489-0'
+softwareurl: 'https://license.umn.edu/product/3d-vector-field-guided-toolpathing-for-3d-bioprinting'
 citation: 'Griffin, M.R., Bertram, S.E., Robison, N.P. et al. 3D vector field-guided toolpathing for 3D bioprinting. Commun Eng 4, 154 (2025).'
 ---
 
