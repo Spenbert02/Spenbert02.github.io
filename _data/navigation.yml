@@ -1,11 +1,14 @@
-# main links links  SB 5/22/2024
+# main links  SB 5/22/2024
 main:
-  - title: "Papers"
-    url: /papers/  
-    
   - title: "Projects"
     url: /projects/
-    
+
+  - title: "Papers"
+    url: /papers/  
+
+  - title: "Tutoring"
+    url: /tutoring/
+
   - title: "CV"
     url: https://drive.google.com/file/d/1E1lbZGIEKV25aeXTReL1sKWOjb0dN9G2/view?usp=sharing
-    
+
