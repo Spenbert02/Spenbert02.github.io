@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-> As universites increasingly return to standardized testing requirements, a standout ACT score is one of the most powerful ways to elevate your college application.
+> As universities increasingly return to standardized testing requirements, a standout ACT score is one of the most powerful ways to elevate your college application.
 
 
 My tutoring emphasizes **critical thinking and pattern recognition** over rote memorization, preparing your student for both the exam and their academic career beyond.
