@@ -30,7 +30,7 @@ My tutoring emphasizes **critical thinking and pattern recognition** over rote m
 
 ## Logistics
 
-* **Rate:** $75 / hour
+* **Rate:** $100 / hour
 * **Format:** Flexible, remotely via zoom or in-person in the New York City area
 
 ---
