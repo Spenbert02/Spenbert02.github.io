@@ -1,16 +1,16 @@
 ---
 layout: archive
-title: "ACT Tutoring"
+title: "Math Tutoring"
 permalink: /tutoring/
 author_profile: true
 ---
 
 {% include base_path %}
 
-> As universities increasingly return to standardized testing requirements, a standout ACT score is one of the most powerful ways to elevate your college application.
+> Set your student ahead of the curve with elite math tutoring. Slots open for Summer 2026!
 
 
-My tutoring emphasizes **critical thinking and pattern recognition** over rote memorization, preparing your student for both the exam and their academic career beyond.
+My tutoring emphasizes organic **critical thinking** over rote memorization, preparing your student for both their course/exam and their academic career beyond.
 
 ---
 
@@ -23,21 +23,22 @@ My tutoring emphasizes **critical thinking and pattern recognition** over rote m
 ---
 
 ## Services
-* Comprehensive ACT prep
-* Targeted ACT section prep (STEM Intensive)
+* **Middle/High School Math:** Accelerate your student's mathematical learning to set them ahead of the curve
+* **AP Course Prep:** Prepare your student for their upcoming AP course (Calculus AB/BC, Physics 1/2/C, others upon request)
+* **ACT/SAT Math Prep:** Targeted Math & Science section prep to turn STEM into a major score driver
 
 ---
 
 ## Logistics
 
-* **Rate:** $100 / hour
-* **Format:** Flexible, remotely via zoom or in-person in the New York City area
+* Summer slots available!
+* **Meeting Options:** Flexible, remotely via Zoom or in-person in the New York City area
 
 ---
 
 ## Get Started Today
 
-Summer and early Fall are the ideal times to prepare for upcoming exam dates without the distraction of regular schoolwork.
+Summer is the ideal time to prepare for upcoming courses/exams without the distraction of regular schoolwork.
 
 **To schedule a session or a free 15 minute consultation, please reach out via phone or email:**
 
