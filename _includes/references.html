@@ -1,0 +1,9 @@
+{% if page.references and page.references.size > 0 %}
+## References
+
+<ol class="references-list">
+{% for ref in page.references %}
+  <li id="ref-{{ forloop.index }}">{{ ref }} <a href="#citeref-{{ forloop.index }}" aria-label="Back to text">&#8617;</a></li>
+{% endfor %}
+</ol>
+{% endif %}

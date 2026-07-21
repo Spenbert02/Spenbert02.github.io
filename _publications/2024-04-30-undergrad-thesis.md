@@ -3,6 +3,7 @@ title: "An orientation field-based toolpath generation algorithm for nonplanar, 
 collection: publications
 permalink: /publication/2024-04-30-undergrad-thesis
 excerpt: '<i>(Undergraduate thesis)</i>'
+worktype: "Thesis"
 date: 2024-04-30
 venue: 'University of Minnesota'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'

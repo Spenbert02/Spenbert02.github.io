@@ -1,10 +1,7 @@
 # main links  SB 5/22/2024
 main:
-  - title: "Projects"
-    url: /projects/
-
-  - title: "Papers"
-    url: /papers/  
+  - title: "Research"
+    url: /
 
   - title: "Tutoring"
     url: /tutoring/

@@ -1,12 +1,13 @@
 ---
-title: "NAATIV3: Nonplanar Architecture-Aligned Toolpathing for In-Vitro 3D Bioprinting"
+title: "NAATIV3"
 # excerpt: "Toolpath generation algorithm for field-aligned 3D printing. The topic of my undergraduate honors thesis and my main focus as a staff researcher.<br/><img src='/images/ventricle_print_preview.png' width='50%'>"
 excerpt: "<img src='/images/ventricle_print_preview.png' width='50%'>"
+header:
+  teaser: "ventricle_print_preview.png"
 collection: portfolio
-customdate: "September 2022 - June 2025"
+order: 2
+codeurl: "https://license.umn.edu/product/3d-vector-field-guided-toolpathing-for-3d-bioprinting"
 ---
-
-<p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> </strong>September 2022 - Present</p>
 
 NAATIV3 is a path planning algorithm for 3D printing along specified fully-three-dimensional vector fields. The primary motivation is bioprinting for tissue engineering; in particular, NAATIV3 was used to 3D print a fiber-oriented human left ventricle model, obtained from diffusion MRI data.
 

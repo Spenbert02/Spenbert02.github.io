@@ -174,9 +174,6 @@ kramdown:
 
 # Collections  SB 5/22/204
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/

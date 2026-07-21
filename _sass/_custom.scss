@@ -1,3 +1,11 @@
+.page__content a {
+    text-decoration: none;
+}
+
+.page__content a:hover {
+    text-decoration: underline;
+}
+
 .custom-icon {
     position: relative;
     bottom: 0.2em;
@@ -20,4 +28,94 @@
 .custom-icon-list {
     padding: 0;
     margin: 0;
+}
+
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    margin: 1.5em 0 2em;
+    padding: 0;
+    list-style: none;
+}
+
+.project-grid__item {
+    width: 180px;
+    box-sizing: border-box;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid $border-color;
+    border-radius: 10px;
+}
+
+.project-grid__link {
+    display: block;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.project-grid__thumb {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 4px;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.project-grid__link:hover .project-grid__thumb {
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+}
+
+.project-grid__title {
+    display: block;
+    margin-top: 0.5em;
+    font-size: 0.9em;
+    font-weight: normal;
+    line-height: 1.3;
+}
+
+.project-grid__subtitle {
+    display: block;
+    margin-top: 0.15em;
+    font-size: 0.8em;
+}
+
+.work-item {
+    margin: 0 0 1.75em;
+}
+
+.work-item__title {
+    margin: 0 0 0.3em;
+    font-size: 1.05em;
+    font-weight: normal;
+    font-family: $sans-serif-narrow;
+}
+
+.page__content .work-item__icon-link {
+    margin-left: 0.4em;
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.work-item__icon-link:hover {
+    opacity: 1;
+}
+
+.work-item__meta {
+    margin-left: 1.25em;
+    padding-left: 0.75em;
+    border-left: 2px solid $border-color;
+}
+
+.work-item__meta p {
+    margin: 0.3em 0;
+}
+
+.references-list {
+    font-size: 0.9em;
+}
+
+.references-list li {
+    margin-bottom: 0.5em;
 }

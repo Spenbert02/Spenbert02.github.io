@@ -1,0 +1,40 @@
+{% include base_path %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="work-item">
+  <h3 class="work-item__title">
+    <strong>[{{ post.worktype }}]</strong> <span class="work-item__title-text">{{ title }}</span>
+    <a class="work-item__icon-link" href="{{ base_path }}{{ post.url }}" aria-label="View {{ post.worktype }} details">
+      {% if post.worktype == "Poster" %}
+        <i class="fas fa-image" aria-hidden="true"></i>
+      {% else %}
+        <i class="fas fa-file-lines" aria-hidden="true"></i>
+      {% endif %}
+    </a>
+  </h3>
+
+  <div class="work-item__meta">
+    {% if post.collection == 'patents' %}
+      <p class="work-item__date"><strong>Filed:</strong> {{ post.date | date: "%B %d, %Y" }}</p>
+    {% elsif post.collection == 'talks' %}
+      <p class="work-item__date"><strong>{{ post.type }}:</strong> <i>{{ post.venue }}</i>, {{ post.date | date: "%B %d, %Y" }}</p>
+    {% elsif post.collection == 'publications' %}
+      <p class="work-item__date"><strong>{{ post.worktype }}:</strong> {% if post.venue %}<i>{{ post.venue }}</i>, {% endif %}{{ post.date | date: "%B %d, %Y" }}</p>
+    {% endif %}
+
+    {% if post.citation %}
+      <p class="work-item__citation">{{ post.citation }}</p>
+    {% endif %}
+
+    {% capture links %}{% if post.paperurl %}<a href="{{ post.paperurl }}" target="_blank">View Paper</a>{% endif %}{% if post.slidesurl %}{% if post.paperurl %} | {% endif %}<a href="{{ post.slidesurl }}">Download Slides</a>{% endif %}{% if post.softwareurl %}{% if post.paperurl or post.slidesurl %} | {% endif %}<a href="{{ post.softwareurl }}">Code</a>{% endif %}{% endcapture %}
+    {% assign links = links | strip %}
+    {% if links != "" %}
+      <p class="work-item__links">{{ links }}</p>
+    {% endif %}
+  </div>
+</div>
