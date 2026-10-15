@@ -9,17 +9,13 @@ order: 2
 codeurl: "https://license.umn.edu/product/3d-vector-field-guided-toolpathing-for-3d-bioprinting"
 ---
 
-NAATIV3 is a path planning algorithm for 3D printing along specified fully-three-dimensional vector fields. The primary motivation is bioprinting for tissue engineering; in particular, NAATIV3 was used to 3D print a fiber-oriented human left ventricle model, obtained from diffusion MRI data.
+NAATIV3 plans 3D-printing paths that follow a fully three-dimensional direction field, for bioprinting tissue whose function depends on its fiber orientation. From a diffusion MRI scan of a human heart, it traces the muscle fibers, thins them to evenly spaced paths, and orders the paths so the nozzle never collides with printed material. It was used to print a fiber-oriented model of a human left ventricle, published in <a href="https://doi.org/10.1038/s44172-025-00489-0" target="_blank">Nature Communications Engineering</a>.
 
 <img src="/images/printed_ventricle.png" width="75%">
 
-At a high level, NAATIV3 converts a boundary surface and internal vector field into a sequence of non-interfering toolpaths that yield a contiguous printed construct. For diffusion MRI-based printing, a scan must be segmented to obtain a boundary surface. Tensor fitting can then be implemented using a tractography suite (e.g. the DiPy Python library), yielding a primary fiber orientation field.
-
-The algorithm operates by first generating a dense set of contours through numerical vector field integration (this process is identical to tractography). This set of 3D contours (example for the heart shown below) is reduced to a uniformly spaced representative subset via a cylinder-intersection based iterative exclusion procedure. The resulting subset is further reduced via graph-based interference prediction and finally ordered using heuristic search techniques, yielding a non-interfering, 3D printable toolpath sequence.
-
 <img src="/images/ventricle_streams_ha.png" width="75%">
 
-A major development is our novel thinning procedure that reduces an initially overdense contour set to a subset possessing a specified uniform inter-contour spacing. The thinning procedure executed on a human left ventricle model is shown below.
+The thinning step on a left ventricle model:
 
 <!-- <iframe width="100%" height="500px" src="https://drive.google.com/file/d/1Zdr8TbQE6sfnC8JQvKBkxoWaAPP8g-ou/preview"></iframe> -->
 <!-- <iframe src="https://drive.google.com/file/d/1Zdr8TbQE6sfnC8JQvKBkxoWaAPP8g-ou/preview" width="100%" height="480"></iframe> -->
