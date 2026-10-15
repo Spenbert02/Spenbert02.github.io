@@ -13,7 +13,8 @@ Then visit `http://localhost:4000/`.
 
 ## Structure
 
-- `_pages/` — standalone pages (about, projects, papers, tutoring)
+- `_pages/` — standalone pages (about, projects, papers)
+- `_archive/` — retired pages kept for reference; Jekyll does not build them (see `_archive/tutoring/README.md`)
 - `_portfolio/`, `_publications/`, `_talks/`, `_patents/` — content collections
 - `_data/navigation.yml` — main nav links
 - `images/` — site images
