@@ -9,7 +9,7 @@ order: 2
 codeurl: "https://license.umn.edu/product/3d-vector-field-guided-toolpathing-for-3d-bioprinting"
 ---
 
-NAATIV3 plans 3D-printing paths that follow a fully three-dimensional direction field, for bioprinting tissue whose function depends on its fiber orientation. From a diffusion MRI scan of a human heart, it traces the muscle fibers, thins them to evenly spaced paths, and orders the paths so the nozzle never collides with printed material. It was used to print a fiber-oriented model of a human left ventricle, published in <a href="https://doi.org/10.1038/s44172-025-00489-0" target="_blank">Nature Communications Engineering</a>.
+NAATIV3 plans 3D-printing paths that follow a fully three-dimensional direction field, for bioprinting tissue whose function depends on its fiber orientation. From a diffusion MRI scan of a human heart, it traces the muscle fibers, thins them to evenly spaced paths, and orders the paths so the nozzle never collides with printed material. At its core are Runge–Kutta streamline integration, swept-volume collision detection, NP-hard graph optimization, and heuristic search, implemented in Python and C. It was used to print a fiber-oriented model of a human left ventricle, published in <a href="https://doi.org/10.1038/s44172-025-00489-0" target="_blank">Nature Communications Engineering</a>.
 
 <img src="/images/printed_ventricle.png" width="75%">
 
